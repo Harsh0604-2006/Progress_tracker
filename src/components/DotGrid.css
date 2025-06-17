@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; 
+  z-index: -1;
+}
+
+.dot-grid {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+  width: 100vw;   
+  position: fixed;
+  overflow: hidden; 
+}
+
+.dot-grid__wrap {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.dot-grid__container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--dot-gap);
+  pointer-events: none;
+  background-color: black;
+  overflow: hidden; 
+}
+
+.dot-grid__dot {
+  width: var(--dot-size);
+  height: var(--dot-size);
+  border-radius: 50%;
+  will-change: transform, background-color;
+  transform-origin: center;
+}
