@@ -1,12 +1,29 @@
-# React + Vite
+# 🚀 Interactive Landing Page with Authentication – Progress Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is an interactive and responsive landing page built with **React + Vite**. It includes user authentication and is the front-end of a **Progress Tracker** web application. The landing page and login/signup flows are functional, while the actual progress tracking features are currently under development.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- ⚡️ Superfast development environment with **Vite**
+- 🎨 Clean and modern responsive UI
+- 🔐 Authentication system (Login / Signup)
+- 🔄 Smooth animations and transitions
+- 💡 Designed to scale into a complete progress tracking tool
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React** – Frontend framework
+- **Vite** – Lightning-fast build tool
+- **React Router DOM** – Client-side routing
+- **Authentication** – (Firebase/Auth0/Custom – update as per your implementation)
+- **CSS Framework** – (e.g., Tailwind CSS / CSS Modules / Styled Components – update as per your setup)
+- **ESLint** – For code linting and consistency
+
+---
+
+
+
